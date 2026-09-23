@@ -42,7 +42,7 @@ ditambah dengan code paragraf sebelumnya maka ketika mencoba membuka di browser 
              alt="Foto profil mahasiswa">
 hasil dari code yang telah kita buat
 
-![Hasil Tampilan Lengkap](screenshots/hasil-tampilan-lengkap.png)
+
 
 7. Menambah hyperlink yang dimana kita bisa menampilkan konten yang ingin disisipkan baik berupa gambar atau web baik dari internal maupun eksternal.
 <nav><a href="index.html">Beranda</a>
