@@ -1,47 +1,78 @@
-# Lab1Web - Praktikum 1: HTML Dasar
+# Lab1Web
+Praktikum Pemrograman Web 1
+Penjelasan dan langkah-langkah praktikum pemrograman web 1
+1. Dimulai dari membuka software text editor seperti sublime text, vscode atau yang lainnya. Namun disini kita akan menggunakan Text editor VSCode.
+<img width="938" height="484" alt="image" src="https://github.com/user-attachments/assets/efb719a5-bf5e-43ed-865d-3ce670a52908" />.
+2. Buka/Run VSCode lalu buat folder baru yang bernama Lab1Web, setelah dibuat buka folder tersebut di VSCode,lalu buat file HTML dengan nama index.html.
+<img width="720" height="298" alt="image" src="https://github.com/user-attachments/assets/acc388cf-d24c-4131-a890-0d91fb6c9f97" />
+<img width="370" height="78" alt="image" src="https://github.com/user-attachments/assets/3e1782f0-00ac-4c44-9b0f-7e1ee351bc91" />.
 
-**Nama:** Alleizandro Lim Hianto Prasetya
-**Mata Kuliah:** Pemrograman Web
-**Program Studi:** Teknik Informatika
+4. File index.html sudah dibuat sekarang lanjut ke pembuatan struktur dasar HTML dengan code sebagai berikut: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   
+</body>
+</html>
+Simpan file tersebut lalu buka di browser. <img width="1097" height="807" alt="image" src="https://github.com/user-attachments/assets/0ee8ef5d-492f-4d95-b135-f4594f94903c" />.
 
-## Deskripsi
-Repository ini berisi hasil praktikum HTML Dasar, mencakup pembuatan struktur dokumen HTML, heading, paragraf, pemformatan teks, gambar, hyperlink, list, dan komentar.
+4. Lanjut untuk pembuatan paragraf menggunakan code sebagai berikut:
+  <p>
+        Nama: Alleizandro Lim Hianto Prasetya
+  </p>
+  <p>
+        Saya sedang mempelajari dasar-dasar pengembangan
+        aplikasi web menggunakan HTML.
+    </p>
+  maka akan muncul nama tersebut pada halaman web di browser
 
-## Struktur File
-```
-Lab1Web/
-├── index.html
-├── halaman2.html
-├── images/
-│   └── profil.jpg
-└── README.md
-```
+  ![Hasil Data Diri](screenshots/hasil-data-diri.png)
 
-## Langkah-langkah Praktikum
+5. Lanjut untuk pembuatan judul dan sub judul dengan menggunakan code sebagai berikut:
+<h1>Data Diri</h1>
+<h2>Keahlian</h2>
+ditambah dengan code paragraf sebelumnya maka ketika mencoba membuka di browser akan muncul judul dan sub judul pada halaman web. <img width="744" height="206" alt="image" src="https://github.com/user-attachments/assets/865f47c7-1aa7-476d-8202-d57c095b7a1f" /> .
 
-1. **Struktur Dasar HTML** — Membuat `index.html` dengan struktur `<!DOCTYPE html>`, `<html>`, `<head>`, dan `<body>`.
-2. **Membuat Paragraf** — Menambahkan paragraf menggunakan tag `<p>` untuk menjelaskan isi halaman.
-3. **Menambahkan Judul** — Menambahkan heading `<h1>` sebagai judul utama dan `<h2>` sebagai subjudul sebelum masing-masing paragraf.
-4. **Memformat Teks** — Menggunakan tag `<b>`, `<i>`, `<strong>`, `<sub>`, dan `<sup>` untuk memformat teks pada paragraf.
-5. **Menyisipkan Gambar** — Menambahkan foto profil menggunakan tag `<img>` dengan atribut `src`, `width`, `alt`, dan `title`. Gambar disimpan di folder `images/`.
-6. **Mengatur Ukuran Gambar** — Mengatur ukuran gambar menggunakan atribut `width`.
-7. **Menambahkan Hyperlink** — Membuat `halaman2.html` dan menambahkan navigasi `<nav>` berisi link internal (`index.html`, `halaman2.html`) dan link eksternal (Google).
-8. **Menambahkan List** — Menambahkan daftar keahlian menggunakan `<ul>` (unordered list) dan daftar target belajar menggunakan `<ol>` (ordered list).
-9. **Menambahkan Komentar** — Menambahkan komentar `<!-- ... -->` sebagai penanda pada bagian-bagian kode.
-10. **Menggabungkan Semua Elemen** — Menyusun seluruh elemen di atas menjadi satu halaman Profil Mahasiswa yang lengkap pada `index.html`.
+6. Sekarang untuk menyisipkan atau menempelkan gambar pada halaman browser dengan menambah element tag yaitu "img" sebagai code untuk menyisipkan gambar, "src" sebagai lokasi gambar berada, "alt" judul atau nama keterangan dari gambar tersebut dan "width" mengatur ukuran gambar.
+<img src="images/profil.jpg"
+             width="200"
+             alt="Foto profil mahasiswa">
+hasil dari code yang telah kita buat
 
-## Data Diri yang Ditampilkan
-- **Nama:** Alleizandro Lim Hianto Prasetya
-- **Keahlian:** HTML, Python
-- **Target Belajar:** JavaScript, HTML, CSS, Python, C++
+![Hasil Tampilan Lengkap](screenshots/hasil-tampilan-lengkap.png)
 
-## Validasi
-Struktur HTML telah dicek/divalidasi menggunakan [W3C Validator](http://validator.w3.org).
+7. Menambah hyperlink yang dimana kita bisa menampilkan konten yang ingin disisipkan baik berupa gambar atau web baik dari internal maupun eksternal.
+<nav><a href="index.html">Beranda</a>
+        <a href="halaman2.html">Halaman 2</a>
+        <a href="https://pelitabangsa.ac.id/">About University</a>
+</nav>
+maka akan muncul text berwarna biru bergaris bawah yang dimana jika kita mengklik text tersebut maka halaman akan berubah secara otomomatis sesuai dengan link yang kita tempelkan pada code tersebut <img width="581" height="46" alt="image" src="https://github.com/user-attachments/assets/cb1b2b57-725b-45b2-9399-9956657adce5" />
 
-## Screenshot
-*(Tambahkan screenshot hasil setiap tahap praktikum di sini setelah membuka file pada browser.)*
+8. Penambahan list dan komentar pada struktur HTML, penambahan list menggunakan unordered list, ordered list dan komentar bisa menggunakan code sebagai berikut:
+ <!-- Bagian Keahlian -->
+    <h2>Keahlian</h2>
+    <ul>
+      <li >HTML</li>
+      <li >Python</li>
+    </ul>
+    <!-- Capaian Pembelajaran -->
+    <h2>Target Belajar</h2>
+    <ol>
+        <li>Menguasai JavaScript</li>
+        <li>Menguasai HTML</li>
+        <li>Menguasai CSS</li>
+        <li>Menguasai Python</li>
+        <li>Menguasai C++</li>
+    </ol>
+    
+    Dengan penggunaan code tersebut maka kalimat Bagian Keahlian & Capaian Pembelajaran tidak akan muncul pada halaman web dan hanya berfungsi sebagai penanda pada code tersebut namun untuk penggunaan list akan muncul pada halaman web tersebut.
+    <img width="867" height="300" alt="image" src="https://github.com/user-attachments/assets/a9f5446e-6538-48b1-a24a-e67bda76e279" />
+    
+10. Maka terakhir setelah selesai membuat struktur dan code HTML yang sudah kita buat maka secara keseluruhan, tampilan web akan menampilkan hasil dari pembuatan code yang kita buat.
 
-## Cara Menjalankan
-1. Clone atau download repository ini.
-2. Buka file `index.html` menggunakan web browser (Chrome/Firefox/Edge).
-3. Uji setiap hyperlink pada halaman untuk memastikan navigasi berfungsi.
+![Hasil Akhir](screenshots/hasil-tampilan-lengkap.png)
