@@ -34,8 +34,7 @@ Simpan file tersebut lalu buka di browser. <img width="1097" height="807" alt="i
 5. Lanjut untuk pembuatan judul dan sub judul dengan menggunakan code sebagai berikut:
 <h1>Data Diri</h1>
 <h2>Keahlian</h2>
-ditambah dengan code paragraf sebelumnya maka ketika mencoba membuka di browser akan muncul judul dan sub judul pada halaman web. <img width="744" height="206" alt="image" src="https://github.com/user-attachments/assets/865f47c7-1aa7-476d-8202-d57c095b7a1f" /> .
-
+ditambah dengan code paragraf sebelumnya maka ketika mencoba membuka di browser akan muncul judul dan sub judul pada halaman web.
 6. Sekarang untuk menyisipkan atau menempelkan gambar pada halaman browser dengan menambah element tag yaitu "img" sebagai code untuk menyisipkan gambar, "src" sebagai lokasi gambar berada, "alt" judul atau nama keterangan dari gambar tersebut dan "width" mengatur ukuran gambar.
 <img src="images/profil.jpg"
              width="200"
