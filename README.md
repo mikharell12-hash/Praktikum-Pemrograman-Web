@@ -31,8 +31,6 @@ Simpan file tersebut lalu buka di browser. <img width="1097" height="807" alt="i
     </p>
   maka akan muncul nama tersebut pada halaman web di browser
 
-  ![Hasil Data Diri](screenshots/hasil-data-diri.png)
-
 5. Lanjut untuk pembuatan judul dan sub judul dengan menggunakan code sebagai berikut:
 <h1>Data Diri</h1>
 <h2>Keahlian</h2>
